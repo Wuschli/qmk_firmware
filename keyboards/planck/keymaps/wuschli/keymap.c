@@ -43,12 +43,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,              DE_Q,    DE_W,     DE_E,    DE_R,    DE_T,    DE_Y,    DE_U,    DE_I,    DE_O,    DE_P,    KC_BSPC              },
   {LT(_ARROWS, KC_ESC), DE_A,    DE_S,     DE_D,    DE_F,    DE_G,    DE_H,    DE_J,    DE_K,    DE_L,    DE_SCLN, KC_ENT               },
   {M_LSFT,              DE_Z,    DE_X,     DE_C,    DE_V,    DE_B,    DE_N,    DE_M,    DE_COMM, DE_DOT,  DE_SLSH, DE_QUOT              },
-  {KC_LCTL,             _______, KC_LGUI,  KC_LALT, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_RALT, _______, _______, KC_RCTL              }
+  {KC_LCTL,             KC_F19,  KC_LGUI,  KC_LALT, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT             }
 },
 [_SYMBOLS] = {
 	{ _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______ },
 	{ _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, DE_DOT,  _______ },
-	{ _______, _______, _______, _______, _______, _______, _______, _______, M_LESS , DE_RABK, DE_QUES, DE_DQUO },
+	{ _______, _______, _______, _______, _______, _______, _______, _______, M_LESS,  DE_RABK, DE_QUES, DE_DQUO },
 	{ _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______ }
 },
 [_LOWER] = {
